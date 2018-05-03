@@ -132,7 +132,9 @@ def solve(puzzle):
                         printGrid(grid)'''
                 for i in range(0,4):
                         grid = simplify(grid)
-                        printGrid(grid)'''
+                        printGrid(grid)
+                        if(isComplete(grid)):
+                                break
                 
 
 
